@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Redhat"
+  description: "Application Developer on Red Hat Developer-hub"
+  annotations:
+    github.com/project-slug: nageshredhat/frontend-app
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://workspaces.openshift.com/#https://github.com/nageshredhat/frontend-app
+      title: OpenShift Dev Spaces (VS Code)
+      icon: web
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/nageshredhat"

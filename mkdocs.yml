@@ -1,0 +1,8 @@
+site_name: "Redhat"
+site_description: "Application Developer on Red Hat Developer-hub"
+
+nav:
+  - Introduction: docs/index.md
+
+plugins:
+  - techdocs-core
